@@ -1,0 +1,227 @@
+.read {
+    display: flex;
+    margin: 15px 15px 0 15px;
+}
+
+.header {
+    padding: 5px;
+    padding-top: 12px;
+    font-family: cursive;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.input-group-append {
+    background-color: #f5f7fa;
+    color: #909399;
+    display: table-cell;
+    position: relative;
+    border: 1px solid #dcdfe6;
+    border-radius: 4px;
+    width: 60px;
+    padding: 5px 18px 5px 18px;
+}
+
+.input-group-text {
+    background: none !important;
+    border: none !important;   
+    padding: 7px !important; 
+    font-size: 12px !important;
+}
+
+
+.input-group-append:hover {
+    cursor: pointer;
+}
+
+.search-div {
+    margin: 0 15px 15px 15px !important;
+    width: auto;
+}
+
+.input-group {
+    margin: 0 15px 15px 15px !important;
+    width: auto !important;
+    border: 1px solid #dacdcd;
+    border-radius: 5px;
+}
+
+.tag {
+    margin-top: 13px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+.span {
+    margin: 5px;
+}
+
+.span-switch {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 14px;
+    display: inline-block;
+    float: right;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.back_image {
+    text-align: center;
+}
+
+.time {
+    font-size: 13px;
+    color: #999;
+}
+
+.form-control {
+    border:none !important;   
+    padding: 0 !important;
+}
+
+.form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.form-control:focus .input-group {
+    border: 1px solid #007bff !important;
+}
+
+.bottom {
+    margin-top: 13px;
+    line-height: 12px;
+}
+
+.things_name {
+    font-size: 14px;
+}
+
+.things_price_Currency {
+    font-weight: bold;
+}
+
+.button {
+    margin-top: 10px;
+    width: 300px;
+    height: 32px;
+    line-height: 30px;
+    font-size: 12px;
+    color: rgb(7, 126, 245);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+
+.thing_card {
+    padding: 20px;
+}
+
+.result {
+    padding-top: 70px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.logo {
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 3px 0px 11px 2px black;
+    margin-top: -55px;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 130px;
+    height: 130px;
+}
+
+.logo_mark {
+    margin-top: -20px;
+    padding-bottom: 5px;
+}
+
+.logo:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ebay-tag {
+    margin-right: 10px;
+}
+
+#aliexpress-switch {
+    background-color: red;
+    width: 20px;
+    height: 8px;
+}
+
+.mark_ebay {
+    width: 45px;
+    margin-top: 8px;
+    margin-bottom: 7px;
+    float: left;
+}
+
+.mark_aliexpress {
+    width: 90px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    float: left;
+
+}
+
+@media screen and (max-width: 380px) {
+    .header {
+        font-family: cursive;
+        font-size: 20px;
+    }
+    .tag {
+        margin-top: 15px;
+        margin-left: 10px;
+        padding: 5px;
+    }
+    .el-button+.el-button {
+        margin-left: 0px;
+        margin-top: 2px;
+    }
+    .mark_ebay {
+        margin-top: -2px;
+    }
+    .mark_aliexpress {
+        margin-top: -3px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        font-family: cursive;
+        font-size: 20px;
+    }
+    .tag {
+        margin: 0px;
+        padding: 5px;
+        ;
+    }
+    .el-button+.el-button {
+        margin-left: 0px;
+        margin-top: 2px;
+    }
+    .mark_ebay {
+        margin-top: 2px;
+    }
+    .mark_aliexpress {
+        margin-top: 4px;
+        ;
+    }
+}

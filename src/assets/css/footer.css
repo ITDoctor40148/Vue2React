@@ -1,0 +1,15 @@
+.footer {
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
